@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Dapur Mamiwido</title>
+    <link rel="stylesheet" href="menu-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Favicon -->
+    <link rel="icon" href="Logo_design.svg" type="image/svg+xml">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <img src="Logo_design.svg" alt="Dapur Mamiwido" class="loading-logo">
+        <div class="loading-spinner"></div>
+        <p class="loading-text">Memuat Halaman...</p>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <!-- Header Top - Full Width -->
+        <div class="header-top">
+            <div class="contact-info">
+                <span><i class="fas fa-map-marker-alt"></i> Jl. Kayumanis Bondol, Bogor, Indonesia</span>
+                <span><i class="fas fa-phone"></i> 0878 7307 3356</span>
+            </div>
+        </div>
+        
+        <!-- Header Main - With Container -->
+        <div class="container">
+            <div class="header-main">
+                <div class="logo">
+                    <img src="Logo_design.svg" alt="Dapur Mamiwido Logo">
+                </div>
+                
+                <div class="search-container">
+                    <input type="text" id="searchInput" placeholder="Cari produk makanan favorit Anda...">
+                    <button type="button" id="searchBtn">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+                
+                <nav class="navigation">
+                    <ul>
+                        <li><a href="index.html" class="nav-link">Beranda</a></li>
+                        <li><a href="about.html" class="nav-link">About</a></li>
+                        <li><a href="menu.html" class="nav-link active">Menu</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Menu Dapur Mamiwido</h1>
+            <p>Pilihan terbaik makanan rumahan berkualitas tinggi</p>
+        </div>
+    </section>
+
+    <!-- Menu Content -->
+    <main class="menu-content">
+        <div class="container">
+            <!-- Best Seller Section -->
+            <section class="menu-section">
+                <h2 class="menu-section-title">
+                    <i class="fas fa-star"></i>
+                    Best Seller
+                </h2>
+                <div class="menu-list">
+                    <div class="menu-card">
+                        <a href="detail lontong kare.html" class="menu-card-link">
+                            <div class="menu-image">
+                                <img src="Lontong Kare.jpeg" alt="Lontong Kare">
+                            </div>
+                            <div class="menu-info">
+                                <h4>Lontong Kare</h4>
+                                <p class="menu-price">Rp 15.000 - Rp 25.000</p>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="menu-card">
+                        <a href="detail ongol-ongol.html" class="menu-card-link">
+                            <div class="menu-image">
+                                <img src="ongol.jpg" alt="Ongol-ongol">
+                            </div>
+                            <div class="menu-info">
+                                <h4>Ongol-ongol</h4>
+                                <p class="menu-price">Rp 20.000</p>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="menu-card">
+                        <a href="detail cenil.html" class="menu-card-link">
+                            <div class="menu-image">
+                                <img src="cenil.jpg" alt="Cenil Gondrong">
+                            </div>
+                            <div class="menu-info">
+                                <h4>Cenil Gondrong</h4>
+                                <p class="menu-price">Rp 25.000</p>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="menu-card">
+                        <a href="detail pastel.html" class="menu-card-link">
+                            <div class="menu-image">
+                                <img src="pastel.jpg" alt="Pastel">
+                            </div>
+                            <div class="menu-info">
+                                <h4>Pastel</h4>
+                                <p class="menu-price">Rp 4.000 (Satuan)</p>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="menu-card">
+                        <a href="detail kue sus.html" class="menu-card-link">
+                            <div class="menu-image">
+                                <img src="sus.jpg" alt="Kue Sus">
+                            </div>
+                            <div class="menu-info">
+                                <h4>Kue Sus</h4>
+                                <p class="menu-price">Rp 3.500 - 5.000</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Kue Kering Section -->
+            <section class="menu-section">
+                <h2 class="menu-section-title">
+                    <i class="fas fa-cookie-bite"></i>
+                    Kue Kering
+                </h2>
+                <div class="menu-list">
+                    <div class="menu-card">
+                        <a href="detail kastengel.html" class="menu-card-link">
+                            <div class="menu-image">
+                                <img src="kastengel tiple keju.png" alt="Kue Kastengel Triple Keju">
+                            </div>
+                            <div class="menu-info">
+                                <h4>Kue Kastengel Triple Keju</h4>
+                                <p class="menu-price">Rp 120.000</p>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="menu-card">
+                        <a href="detail cocho mede cookies.html" class="menu-card-link">
+                            <div class="menu-image">
+                                <img src="Cocho mede cookies.png" alt="Kue Cocho Mede">
+                            </div>
+                            <div class="menu-info">
+                                <h4>Kue Cocho Mede</h4>
+                                <p class="menu-price">Rp 50.000</p>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="menu-card">
+                        <a href="detail pie susu.html" class="menu-card-link">
+                            <div class="menu-image">
+                                <img src="pie susu jumbo.png" alt="Kue Pie Susu Jumbo">
+                            </div>
+                            <div class="menu-info">
+                                <h4>Kue Pie Susu Jumbo Ukuran 22</h4>
+                                <p class="menu-price">Hubungi Kami</p>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="menu-card">
+                        <a href="detail pie buah.html" class="menu-card-link">
+                            <div class="menu-image">
+                                <img src="pie buah.png" alt="Kue Pie Buah">
+                            </div>
+                            <div class="menu-info">
+                                <h4>Kue Pie Buah</h4>
+                                <p class="menu-price">Rp 3.500</p>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="menu-card">
+                        <a href="detail cocho almond cookies.html" class="menu-card-link">
+                            <div class="menu-image">
+                                <img src="Cocho almond cookies.png" alt="Kue Cocho Almond">
+                            </div>
+                            <div class="menu-info">
+                                <h4>Kue Cocho Almond</h4>
+                                <p class="menu-price">Rp 55.000</p>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="menu-card">
+                        <a href="detail coklat pelangi.html" class="menu-card-link">
+                            <div class="menu-image">
+                                <img src="coklat pelangi kukis.png" alt="Kue Coklat Pelangi">
+                            </div>
+                            <div class="menu-info">
+                                <h4>Kue Coklat Pelangi</h4>
+                                <p class="menu-price">Rp 85.000</p>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="menu-card">
+                        <a href="detail coklat mede kukis.html" class="menu-card-link">
+                            <div class="menu-image">
+                                <img src="coklat mede kukis.png" alt="Kue Coklat Mede">
+                            </div>
+                            <div class="menu-info">
+                                <h4>Kue Coklat Mede</h4>
+                                <p class="menu-price">Rp 85.000</p>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="menu-card">
+                        <a href="detail kue kacang.html" class="menu-card-link">
+                            <div class="menu-image">
+                                <img src="kue kacang.jpg" alt="Kue Kacang">
+                            </div>
+                            <div class="menu-info">
+                                <h4>Kue Kacang</h4>
+                                <p class="menu-price">Hubungi Kami</p>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="menu-card">
+                        <a href="detail Florentine cookies.html" class="menu-card-link">
+                            <div class="menu-image">
+                                <img src="kukis florentine.jpg" alt="Florentine Cookies">
+                            </div>
+                            <div class="menu-info">
+                                <h4>Florentine Cookies</h4>
+                                <p class="menu-price">Hubungi Kami</p>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="menu-card">
+                        <a href="detail oatmeal kukis.html" class="menu-card-link">
+                            <div class="menu-image">
+                                <img src="oatmeal kukis 2.jpg" alt="Oatmeal Cookies">
+                            </div>
+                            <div class="menu-info">
+                                <h4>Oatmeal Cookies</h4>
+                                <p class="menu-price">Hubungi Kami</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Kue Basah Section -->
+            <section class="menu-section">
+                <h2 class="menu-section-title">
+                    <i class="fas fa-birthday-cake"></i>
+                    Kue Basah
+                </h2>
+                <div class="menu-list">
+                    <div class="menu-card">
+                        <a href="detail bugis mandi.html" class="menu-card-link">
+                            <div class="menu-image">
+                                <img src="Bugis.png" alt="Kue Bugis Mandi">
+                            </div>
+                            <div class="menu-info">
+                                <h4>Kue Bugis Mandi</h4>
+                                <p class="menu-price">Rp 23.000</p>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="menu-card">
+                        <a href="detail cenil.html" class="menu-card-link">
+                            <div class="menu-image">
+                                <img src="cenil.jpg" alt="Cenil Gondrong">
+                            </div>
+                            <div class="menu-info">
+                                <h4>Cenil Gondrong</h4>
+                                <p class="menu-price">Rp 50.000</p>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="menu-card">
+                        <a href="detail ongol-ongol.html" class="menu-card-link">
+                            <div class="menu-image">
+                                <img src="ongol.jpg" alt="Ongol-ongol">
+                            </div>
+                            <div class="menu-info">
+                                <h4>Ongol-ongol</h4>
+                                <p class="menu-price">Rp 20.000</p>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="menu-card">
+                        <a href="detail wajik hias.html" class="menu-card-link">
+                            <div class="menu-image">
+                                <img src="Wajik hias.png" alt="Kue Wajik Hias Hantaran">
+                            </div>
+                            <div class="menu-info">
+                                <h4>Kue Wajik Hias Hantaran</h4>
+                                <p class="menu-price">Rp 170.000</p>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="menu-card">
+                        <a href="detail lumpur surga.html" class="menu-card-link">
+                            <div class="menu-image">
+                                <img src="lumpur surga.png" alt="Kue Lumpur Surga">
+                            </div>
+                            <div class="menu-info">
+                                <h4>Kue Lumpur Surga</h4>
+                                <p class="menu-price">Rp 4.500</p>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="menu-card">
+                        <a href="detail apem tepung beras.html" class="menu-card-link">
+                            <div class="menu-image">
+                                <img src="apem beras 1.jpg" alt="Apem Tepung Beras">
+                            </div>
+                            <div class="menu-info">
+                                <h4>Apem Tepung Beras</h4>
+                                <p class="menu-price">Hubungi Kami</p>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="menu-card">
+                        <a href="detail kue lopis.html" class="menu-card-link">
+                            <div class="menu-image">
+                                <img src="lopis 2.jpg" alt="Kue Lopis">
+                            </div>
+                            <div class="menu-info">
+                                <h4>Kue Lopis Ketan</h4>
+                                <p class="menu-price">Rp 10.000 / 3 pcs</p>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="menu-card">
+                        <a href="detail kue tampah.html" class="menu-card-link">
+                            <div class="menu-image">
+                                <img src="kue tampah.jpg" alt="Kue Tampah">
+                            </div>
+                            <div class="menu-info">
+                                <h4>Kue Tampah</h4>
+                                <p class="menu-price">Rp 80.000 <br> (min. 2 Tampah) </p>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="menu-card">
+                        <a href="detail mata roda.html" class="menu-card-link">
+                            <div class="menu-image">
+                                <img src="mata roda.jpg" alt="Mata Roda">
+                            </div>
+                            <div class="menu-info">
+                                <h4>Mata Roda</h4>
+                                <p class="menu-price">Rp 3.000</p>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="menu-card">
+                        <a href="detail snack box.html" class="menu-card-link">
+                            <div class="menu-image">
+                                <img src="snack box.jpg" alt="Snack Box">
+                            </div>
+                            <div class="menu-info">
+                                <h4>Snack Box</h4>
+                                <p class="menu-price">Hubungi Kami</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Puding Section -->
+            <section class="menu-section">
+                <h2 class="menu-section-title">
+                    <i class="fas fa-ice-cream"></i>
+                    Puding
+                </h2>
+                <div class="menu-list">
+                    <div class="menu-card">
+                        <a href="detail puding miloreo.html" class="menu-card-link">
+                            <div class="menu-image">
+                                <img src="puding miloreo.png" alt="Miloreo">
+                            </div>
+                            <div class="menu-info">
+                                <h4>Miloreo</h4>
+                                <p class="menu-price">Rp 160.000</p>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="menu-card">
+                        <a href="detail kolam regal.html" class="menu-card-link">
+                            <div class="menu-image">
+                                <img src="puding kolam regal.png" alt="Kolam Regal">
+                            </div>
+                            <div class="menu-info">
+                                <h4>Kolam Regal</h4>
+                                <p class="menu-price">Rp 50.000</p>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="menu-card">
+                        <a href="detail kolam gula aren.html" class="menu-card-link">
+                            <div class="menu-image">
+                                <img src="puding kolam gula aren.png" alt="Kolam Gula Aren">
+                            </div>
+                            <div class="menu-info">
+                                <h4>Kolam Gula Aren</h4>
+                                <p class="menu-price">Rp 50.000</p>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="menu-card">
+                        <a href="detail puding lumut gula merah.html" class="menu-card-link">
+                            <div class="menu-image">
+                                <img src="puding lumut gula merah.jpg" alt="Puding Lumut Gula Merah">
+                            </div>
+                            <div class="menu-info">
+                                <h4>Puding Lumut Gula Merah</h4>
+                                <p class="menu-price">Hubungi Kami</p>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="menu-card">
+                        <a href="detail puding cincau.html" class="menu-card-link">
+                            <div class="menu-image">
+                                <img src="puding cincau.jpg" alt="Puding Cincau">
+                            </div>
+                            <div class="menu-info">
+                                <h4>Puding Cincau</h4>
+                                <p class="menu-price">Rp 150.000</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Masakan Section -->
+            <section class="menu-section">
+                <h2 class="menu-section-title">
+                    <i class="fas fa-utensils"></i>
+                    Masakan
+                </h2>
+                <div class="menu-list">
+                    <div class="menu-card">
+                        <a href="detail nasi tumpeng.html" class="menu-card-link">
+                            <div class="menu-image">
+                                <img src="tumpeng.png" alt="Nasi Tumpeng">
+                            </div>
+                            <div class="menu-info">
+                                <h4>Nasi Tumpeng</h4>
+                                <p class="menu-price">Rp 450.000</p>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="menu-card">
+                        <a href="detail lontong kare.html" class="menu-card-link">
+                            <div class="menu-image">
+                                <img src="lontong_kare.jpg" alt="Lontong Kare">
+                            </div>
+                            <div class="menu-info">
+                                <h4>Lontong Kare</h4>
+                                <p class="menu-price">Rp 15.000 - Rp 25.000</p>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="menu-card">
+                        <a href="detail nasi liwet.html" class="menu-card-link">
+                            <div class="menu-image">
+                                <img src="nasi liwet.jpeg" alt="Nasi Liwet">
+                            </div>
+                            <div class="menu-info">
+                                <h4>Nasi Liwet</h4>
+                                <p class="menu-price">Hubungi Kami</p>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="menu-card">
+                        <a href="detail nasi box ayam bakar.html" class="menu-card-link">
+                            <div class="menu-image">
+                                <img src="nasi box ayam bakar.jpg" alt="Nasi Box Ayam Bakar">
+                            </div>
+                            <div class="menu-info">
+                                <h4>Nasi Box Ayam Bakar</h4>
+                                <p class="menu-price">Rp 20.000</p>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="menu-card">
+                        <a href="detail Nasi uduk.html" class="menu-card-link">
+                            <div class="menu-image">
+                                <img src="nasi uduk.jpg" alt="Nasi Uduk">
+                            </div>
+                            <div class="menu-info">
+                                <h4>Nasi Uduk</h4>
+                                <p class="menu-price">Hubungi Kami</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- WhatsApp Button Section -->
+    <section class="whatsapp-section">
+        <div class="container">
+            <div class="whatsapp-container">
+                <h2>Ingin Menu Lainnya?</h2>
+                <p>Kami memiliki lebih banyak menu yang tidak tercantum di sini. Hubungi kami untuk informasi lebih lanjut atau pemesanan khusus.</p>
+                <a href="https://wa.me/6287873073356?text=Halo%20Dapur%20Mamiwido,%20saya%20ingin%20bertanya%20tentang%20menu%20lainnya" class="whatsapp-button" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                    Tanya Menu Lainnya
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="Logo_design.svg" alt="Dapur Mamiwido">
+                    <p>Best Quality in Town</p>
+                </div>
+                
+                <div class="footer-info">
+                    <h3>Dapur Mamiwido</h3>
+                    <p>Spesialis makanan rumahan berkualitas tinggi dengan cita rasa otentik yang tak terlupakan.</p>
+                </div>
+                
+                <div class="footer-contact">
+                    <h3>Kontak</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Jl. Kayumanis Bondol, Bogor, Indonesia</p>
+                    <p><i class="fas fa-phone"></i> 0878 7307 3356</p>
+                </div>
+                
+                <div class="footer-social">
+                    <h3>Ikuti Kami</h3>
+                    <div class="social-links">
+                        <a href="https://wa.me/6287873073356" target="_blank" title="WhatsApp">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>@dapurmamiwido</span>
+                        </a>
+                        <a href="https://instagram.com/widowati_anjar" target="_blank" title="Instagram">
+                            <i class="fab fa-instagram"></i>
+                            <span>@dapurmamiwido</span>
+                        </a>
+                        <a href="https://www.facebook.com/widowati.antarikso" target="_blank" title="Facebook">
+                            <i class="fab fa-facebook"></i>
+                            <span>Dapur Mamiwido</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Dapur Mamiwido. Semua hak cipta dilindungi undang-undang.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript untuk fitur search -->
+    <script src="script.js"></script>
+    <!-- Loading Screen Script -->
+<script src="loading-screen.js"></script>
+</body>
+</html>

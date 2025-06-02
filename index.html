@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dapur Mamiwido - Best Quality in Town</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Favicon -->
+    <link rel="icon" href="Logo_design.svg" type="image/svg+xml">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <img src="Logo_design.svg" alt="Dapur Mamiwido" class="loading-logo">
+        <div class="loading-spinner"></div>
+        <p class="loading-text">Memuat Halaman...</p>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <!-- Header Top - Full Width -->
+        <div class="header-top">
+            <div class="contact-info">
+                <span><i class="fas fa-map-marker-alt"></i> Jl. Kayumanis Bondol, Bogor, Indonesia</span>
+                <span><i class="fas fa-phone"></i> 0878 7307 3356</span>
+            </div>
+        </div>
+        
+        <!-- Header Main - With Container -->
+        <div class="container">
+            <div class="header-main">
+                <div class="logo">
+                    <img src="Logo_design.svg" alt="Dapur Mamiwido Logo">
+                </div>
+                
+                <div class="search-container">
+                    <input type="text" id="searchInput" placeholder="Cari produk makanan favorit Anda...">
+                    <button type="button" id="searchBtn">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+                
+                <nav class="navigation">
+                    <ul>
+                        <li><a href="index.html" class="nav-link active">Beranda</a></li>
+                        <li><a href="about.html" class="nav-link">About</a></li>
+                        <li><a href="menu.html" class="nav-link">Menu</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="beranda" class="hero">
+        <div class="hero-content-wrapper">
+            <div class="hero-image">
+                <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/makanan-eDzkSSfWehzXxcyKeZUu0HsN5pgyta.png" alt="Produk Dapur Mamiwido">
+            </div>
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Dapur Mamiwido</h1>
+                    <p class="hero-description">
+                        Spesialis aneka kue basah dan kue kering rumahan yang lezat.<br>
+                        Menyediakan puding manis, cookies lezat, dan nasi box lengkap berkualitas.<br>
+                        Rasa homemade yang otentik, cocok untuk semua acara spesial Anda.<br>
+                        Bahan pilihan, higienis, dan dibuat dengan sepenuh hati setiap hari.<br>
+                        Terima pesanan harian, arisan, syukuran, dan kebutuhan event khusus.<br>
+                        Dikirim segar langsung dari dapur kami ke tangan Anda.
+                    </p>
+                    <div class="motto">
+                        <h2>"Best Quality in Town"</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="menu" class="products">
+        <div class="container">
+            <h2 class="section-title">Menu Pilihan Kami</h2>
+            <div class="products-grid" id="productsGrid">
+                <!-- Products will be loaded from best-sellers.json -->
+                <div class="loading-container">
+                    <div class="loading"></div>
+                    <p>Memuat menu terbaik kami...</p>
+                </div>
+            </div>
+            <div class="view-all">
+               <a href="menu.html" class="button">Lihat Semua Menu Kami</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Tentang Dapur Mamiwido</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Dapur Mamiwido adalah usaha makanan rumahan yang mengutamakan kualitas dan cita rasa otentik. Kami berkomitmen menyajikan makanan terbaik dengan bahan-bahan pilihan dan proses pembuatan yang higienis.</p>
+                    <p>Dengan pengalaman bertahun-tahun, kami telah melayani berbagai acara mulai dari pesanan harian hingga event besar. Kepuasan pelanggan adalah prioritas utama kami.</p>
+                </div>
+                <div class="about-image">
+                    <img src="Logo_design.svg" alt="Logo Dapur Mamiwido">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="kontak" class="contact">
+        <div class="container">
+            <h2 class="section-title">Hubungi Kami</h2>
+            <div class="contact-content">
+                <div class="contact-items">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Alamat</h3>
+                            <p>Jl. Raya Bogor No. 123, Kota Bogor, Jawa Barat 16111</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Telepon</h3>
+                            <p>0878 7307 3356</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>Jam Operasional</h3>
+                            <p>Made By Order</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="Logo_design.svg" alt="Dapur Mamiwido">
+                    <p>Best Quality in Town</p>
+                </div>
+                
+                <div class="footer-info">
+                    <h3>Dapur Mamiwido</h3>
+                    <p>Spesialis makanan rumahan berkualitas tinggi dengan cita rasa otentik yang tak terlupakan.</p>
+                </div>
+                
+                <div class="footer-contact">
+                    <h3>Kontak</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Jl. Kayumanis Bondol, Bogor, Indonesia</p>
+                    <p><i class="fas fa-phone"></i> 0878 7307 3356</p>
+                </div>
+                
+                <div class="footer-social">
+                    <h3>Ikuti Kami</h3>
+                    <div class="social-links">
+                        <a href="https://wa.me/6287873073356" target="_blank" title="WhatsApp">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>@dapurmamiwido</span>
+                        </a>
+                        <a href="https://instagram.com/widowati_anjar" target="_blank" title="Instagram">
+                            <i class="fab fa-instagram"></i>
+                            <span>@dapurmamiwido</span>
+                        </a>
+                        <a href="https://www.facebook.com/widowati.antarikso" target="_blank" title="Facebook">
+                            <i class="fab fa-facebook"></i>
+                            <span>Dapur Mamiwido</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Dapur Mamiwido. Semua hak cipta dilindungi undang-undang.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <!-- Loading Screen Script -->
+    <script src="loading-screen.js"></script>
+</body>
+</html>

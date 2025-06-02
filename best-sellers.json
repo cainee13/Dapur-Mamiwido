@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1",
+    "name": "Lontong Kare",
+    "price": "15.000 - 25.000",
+    "image": "Lontong Kare.jpeg",
+    "category": "Masakan",
+    "description": "Lontong kare dengan bumbu rempah tradisional yang kaya rasa. Disajikan dengan sayuran segar dan kerupuk."
+  },
+  {
+    "id": "2",
+    "name": "Ongol-ongol",
+    "price": "20.000",
+    "image": "ongol.jpg",
+    "category": "Kue Basah",
+    "description": "Kue tradisional dengan tekstur kenyal dan taburan kelapa parut yang gurih. Manis dan lezat."
+  },
+  {
+    "id": "3",
+    "name": "Cenil Gondrong",
+    "price": "25.000",
+    "image": "cenil.jpg",
+    "category": "Kue Basah",
+    "description": "Jajanan tradisional berwarna-warni dengan taburan kelapa parut dan gula merah. Tekstur kenyal dan manis."
+  },
+  {
+    "id": "4",
+    "name": "Pastel",
+    "price": "4.000",
+    "image": "pastel.jpg",
+    "category": "Gorengan",
+    "description": "Kue goreng renyah dengan isian sayuran dan daging. Disajikan dengan cabai rawit segar."
+  },
+  {
+    "id": "5",
+    "name": "Kue Sus",
+    "price": "3.500 - 5.000",
+    "image": "sus.jpg",
+    "category": "Kue Basah",
+    "description": "Kue sus dengan kulit renyah di luar dan lembut di dalam. Diisi dengan vla yang creamy dan manis."
+  },
+  {
+    "id": "6",
+    "name": "Kastengel Triple Keju",
+    "price": "120.000",
+    "image": "kastengel tiple keju.png",
+    "category": "Kue Kering",
+    "description": "Kue kastengel premium dengan tiga jenis keju pilihan. Renyah dan gurih dengan aroma keju yang kuat."
+  }
+]
